@@ -59,6 +59,10 @@ public final class JsonUtils {
 		return toString.replaceFirst(",", "") + "]";
 	}
 
+	public static String toJsonArray(Object[] array) {
+		return toString(array);
+	}
+
 	public static String toJsonString(Class<?> cl, Object instance, boolean isJsonObject) {
 		String json = isJsonObject ? "{" : "";
 		if (cl != null) {
