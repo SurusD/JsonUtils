@@ -1,7 +1,7 @@
 # JsonUtils
 Convert Java classes to JSON
 # NOTE
-__**Please note that arrays and classes that extends from the List class will be converted to a JSON array**__
+__**Please note that arrays and classes that implements from the List class will be converted to a JSON array**__
 # How to use
 
 ```Java
